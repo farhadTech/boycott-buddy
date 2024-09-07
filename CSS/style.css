@@ -28,7 +28,7 @@ ul {
 	justify-content: space-between;
 	align-items: center;
 	padding: 1.5rem 2rem;
-  background-color: #001524;
+	background-color: #001524;
 }
 
 .logo {
@@ -39,7 +39,7 @@ ul {
 
 .logo img {
 	margin-right: 1rem;
-  color: #d6cc99;
+	color: #d6cc99;
 	width: 3.5rem; /* Adjust logo size */
 }
 
@@ -91,7 +91,7 @@ ul {
 }
 
 .main-nav ul li a:hover {
-  color: #d6cc99;
+	color: #d6cc99;
 }
 
 .main-nav ul li a::after {
@@ -117,14 +117,14 @@ ul {
 
 /* Hamburger menu */
 .hamburger {
-  position: fixed;
-  top: 2.8rem;
-  right: 2rem;
-  z-index: 10;
-  cursor: pointer;
-  width: 2rem;
-  height: 2rem;
-  background: none;
+	position: fixed;
+	top: 2.8rem;
+	right: 2rem;
+	z-index: 10;
+	cursor: pointer;
+	width: 2rem;
+	height: 2rem;
+	background: none;
 	border: none;
 	display: none;
 }
@@ -132,14 +132,14 @@ ul {
 .hamburger-top,
 .hamburger-middle,
 .hamburger-bottom {
-  position: absolute;
-  width: 2rem;;
-  height: 4px;
-  top: 0;
-  left: 0;
-  background: #fff;
+	position: absolute;
+	width: 2rem;
+	height: 4px;
+	top: 0;
+	left: 0;
+	background: #fff;
 	border-radius: 2px;
-  transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .hamburger-middle {
@@ -206,18 +206,57 @@ ul {
 	font-weight: 600;
 }
 
-.hero .prom {
-	margin-top: 1rem;
+.search-flex {
+	margin-top: 1.5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.search-button {
+	display: flex;
+	align-items: center;
+	padding: 0.8rem 20px;
+	background-color: #001524;
+	color: white;
+	border-color:#d6cc99;
+	border-radius: 2rem;
+	border-width: 0.3rem;
+	cursor: pointer;
+	font-size: 2rem;
+}
+
+.search-button span {
+	font-size: 2rem; /* Size of the icon */
+	margin-right: 10px; /* Space between the icon and the text */
+	color:#d6cc99;
+}
+
+.search-button p {
+	margin: 0;
 	text-transform: uppercase;
-	font-size: 1.2rem;
+	color:#d6cc99;
+	font-size: 1.5rem;
 	font-weight: 800;
 }
 
-.hero .app-logo img{
+.hero .prom {
+	margin-top: 1.5rem;
+	text-transform: uppercase;
+	font-size: 1.3rem;
+	font-weight: 800;
+}
+
+.hero .app-logo img {
 	margin-top: 0.5rem;
 	width: 10rem;
 	padding-bottom: 4rem;
 }
+
+
+
+
+
+
 /* Mobile View */
 @media (max-width: 640px) {
 	.main-nav ul {
